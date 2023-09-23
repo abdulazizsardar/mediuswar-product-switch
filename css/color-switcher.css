@@ -1,0 +1,38 @@
+
+/* Style the container for the color switcher */
+.color-switcher {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Style the label */
+.color-switcher label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Style the select box */
+.color-switcher select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+/* Style the select box options */
+.color-switcher select option {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Style the select box on hover */
+.color-switcher select:hover {
+    border-color: #555;
+}
+
+/* Style the select box when focused */
+.color-switcher select:focus {
+    border-color: #0073e6;
+    box-shadow: 0 0 5px rgba(0, 115, 230, 0.7);
+}
